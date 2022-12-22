@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newsletter email</title>
+    <link rel="stylesheet" href="subsribe_letter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <button class="Click" id="click" onclick="maje();">Click to Start &#128525</button>
+    <div class="form" id="form">
+        <div class="no" id="no" onclick="kuchtoho();">
+            <div class="a"></div>
+            <div class="b"></div>
+        </div>
+        <div class="icon">
+            <div class="background">
+                <i class="fa fa-envelope" style="color:white"></i>
+            </div>
+        </div>
+        <p class="define">
+            Hello i am ashura and i am going to tell you about the gurukul ke teen stambh parampara partistha anushasan. Lekin ye sabse bad secret hai iss liye aapko subscribe karna padega. Toh niche jake karna padh kya raha hai.
+        </p>
+        <div class="Main">
+            <form method="post" id="contactForm">
+                <input type="email" placeholder="Enter email" id="email" autocomplete="off">
+                <br>
+                <button type="submit" id="btn">Subscribe Now</button>
+                <br>
+                <input type="checkbox" id="check"><label>Chal Ab gurukul ke niyam pehle man le</label>
+            </form>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="subsribe_letter.js"></script>
+</body>
+
+</html>
